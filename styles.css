@@ -1,0 +1,304 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;  
+}
+
+.fixed-top {
+        top: 100px;
+        left: unset;
+        right: unset;
+        width: 240px;
+        height: 282px;
+        background: white;
+        font-size: 1vw;
+    }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .fixed-top {
+          width: 18%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .fixed-top {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .top-menu {
+      position: absolute;
+        top: 10px;
+      right: 10px;
+      z-index: 1;
+    }
+}
+
+.background-green {
+    background: #009e49;
+    color: white;
+    min-height: 150px;
+}
+
+.menu {
+    height: 120px;
+}
+
+.header {
+    min-height: 250px;
+}
+
+
+.header-content {
+    position: relative;
+    top: -25px;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .photo1 {
+      position: unset;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .photo1 {
+      position: absolute;
+      right: -500px;
+      top: -320px;  
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .photo1 {
+      position: absolute;
+        right: -450px;
+        top: -300px;
+    }
+}
+
+.navbar-brand {
+    width:162px;
+    height: 66px;
+}
+
+.nav-top {
+    font-size: 20px;
+}
+
+#main-menu {
+    list-style-type: none;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    background: #009E49; 
+    border-radius: 5px;
+}
+@media only screen and (max-width: 991px) {
+    #main-menu li a {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #main-menu {
+      position: absolute;
+        top: 40px;
+        right: 10px;
+        background: #ffffff;        
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-dark .navbar-nav .dark-txt .nav-link {
+      color: #000000;        
+    }
+}
+
+.dropdown-item:hover {
+    background: #e5e5e5;
+}
+
+.header-content h2 {
+    font-size: 38px;
+}
+
+.header-content p {
+    font-size: 16px;
+}
+
+.arrow {
+    float: right;
+    padding-right: 20px;
+}
+
+.text-right {
+    z-index: 1;
+}
+
+hr {
+    border: solid 0,5px;
+    position: relative;
+    top: -39px;
+    background: white;
+}
+
+.fixed {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed li a {
+    display: block;
+    text-decoration: none;
+    padding: 16px 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.border-b {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.menu-left:hover {
+    font-weight: bold;
+}
+
+.background-pale1 {
+    background: #e5f5ec;
+    min-height: 450px;
+}
+
+.intro-head h2 {
+    font-size: 38px;
+    color: #009e49;
+}
+
+.intro-text {
+    color: #009e49;
+    font-size: 16px;
+    position: relative;
+}
+
+.photo2 {
+    position: relative;
+    top: -30px;
+    left: -50px;
+}
+
+.composition {
+    font-size: 38px;
+}
+
+.background-table {
+    min-height: 620px;
+}
+
+@media only screen and (min-width: 768px) {
+    .table-position {
+        width: 720px;
+    }
+}
+
+thead {
+    background: #e5e5e5;
+    font-size: 14px;
+}
+
+th {
+    font-weight: normal;
+}
+
+.background-pale2 {
+    background: #E5F5EC;
+    min-height: 350px;
+}
+
+
+.outro {
+    font-size: 38px;
+    color: #009e49;
+}
+
+.outro-list {
+    font-size: 16px;
+}
+
+.box {
+    position: relative;
+    margin: 0 0 50px 0;
+  }
+
+.green-square {
+    background: #ceecdb;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 1;
+}
+
+.z-text {
+    position: relative;
+    z-index: 2;
+}
+
+.photo3 {
+    max-width: 350px;
+    position: relative;
+    left: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+    .photo3 {
+      position: unset;
+      margin: 20px 0 10px -20px;
+    }
+}
+
+.leaflet {
+    min-height: 150px;
+    font-size: 20px;
+}
+
+.leaflet-box {
+    position: absolute;
+    top: -60px;
+    left: 320px;
+    font-size: 16px;
+    width: 170px;
+    height: 50px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 530px) {
+    .leaflet-box {
+      position: unset;
+    }
+}
+
+.leaflet-box a {
+    color: black;
+    text-decoration: none;
+}
+
+.leaflet-box span {
+    margin-left: 10px;
+    font-size: 140%;
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+}
+
+footer span {
+    color: #c7bbc5;
+}
